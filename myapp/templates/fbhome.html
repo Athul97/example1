@@ -1,0 +1,130 @@
+{% load static %}
+<html>
+  <head> <title>Facebook</title>
+    <style>
+    #ip2 {
+    border-radius: 5px;
+    border: 1px solid grey;
+    /* border: 2px solid #609; */    
+}
+    </style>
+ </head>
+  <body>
+      <table width ="100%" cellspacing= "0" cellpadding="2">
+          <tr bgcolor="#3b5998">
+          <td width= "55%"><img src="{% static 'fb.png'%}" width="220"></td>
+          <td align="left">
+              <table>
+                  <tr>
+                      <td><font style="color: white;">Username:</font></td>
+                      <td><font style="color: white;">Password:</font></td>
+                  </tr>
+                  <tr>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="button" value="Login" ></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td>
+                          <font style="color: rgb(152, 177, 243);">Forgotten account?</font>
+                      </td>
+                  </tr>
+              </table>
+        </td>
+    </tr>
+    <tr bgcolor="#edf0f5" height="600px">
+        <td valign ="top" align="center"><br><br>
+        <table border="0" width= "80%">
+            <tr>
+                <td>
+                    <h2>
+                        <font face ="verdana" style="color:rgb(6, 6, 143);">Facebook helps you connect and share with the people in your life.</font></h2></td>
+            </tr>
+            <tr>
+                <td>
+                    <font face="verdana"><br>
+                    <img src="{% static 'connect.png'%}"
+                </font>
+                </td>
+            </tr>
+       </table>
+      
+
+    <td valign ="top" align="center">
+        <h1 align="left">Create an account</h1><br/>
+        <table border="0" cellspacing="10">
+            <tr><td>It's free and always will be</td></tr>
+            <tr>
+                <td><input type="text" placeholder="First Name" style="height: 30px" size="20" id="ip2"></td>
+                <td align="left"><input  type="text" placeholder="Last Name" style="height: 30px;" id="ip2" size="30"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="text" size="60" placeholder="Mobile Number" style="height: 40px;" id="ip2"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="text" size="60" placeholder="Email" style="height: 40px;" id="ip2"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="text" size="60" placeholder="password" style="height: 40px;" id="ip2"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><font style="color: rgb(71, 68, 68);"><b>Birth Day</b></font></td>
+            </tr>
+            <tr>
+                <td>
+                    <select style="background-color: rgb(167, 164, 164);">
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    </select>
+
+                    <select style="background-color: rgb(167, 164, 164);">
+                            <option>Month</option>
+                            <option>Jan</option>
+                            <option>Feb</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                        </select>
+
+                    <select style="background-color: rgb(167, 164, 164);">
+                            <option>Year</option>
+                            <option>1994</option>
+                            <option>1995</option>
+                            <option>1996</option>
+                            <option>1997</option>
+                            <option>1998</option>
+                        </select>
+                </td>
+                <td><font style="color: blue;">Why need to provid my date of birth ?</font></td>
+                <tr>
+                    <td colspan="2"><font style="color: rgb(71, 68, 68);"><b>Gender</b></font></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender" value="">Male  <input type="radio" name="gender" value="">Female</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        By clicking Sign Up, you agree to our Terms,
+                        Data Policy and Cookie Policy. You may receive SMS
+                        notifications from us and can opt out at any time.
+                    </td>
+                </tr>
+            </tr>
+                <tr> 
+                    <td colspan="2"><img src= "{% static '8.jfif'%}"width="140"></td>
+                </tr>
+
+            
+        </table>
+    </td>
+      </table>
+  </body>
+</html>
