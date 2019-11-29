@@ -25,7 +25,7 @@ SECRET_KEY = ')$7_728!dk1c@n@p@&!+4q(vpuhar8+#klwzwvh&3-88r503@f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cunavig.herokuapp.com']
 
 
 # Application definition
